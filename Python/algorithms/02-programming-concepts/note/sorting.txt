@@ -1,0 +1,50 @@
+Aqui está uma pesquisa sobre 8 algoritmos de ordenação, detalhando sua estabilidade, uso de memória adicional e se são recursivos ou não:
+
+### 1. **Bubble Sort (Ordenação por Bolha)**
+   - **Estabilidade**: Estável (preserva a ordem de elementos iguais).
+   - **Memória Adicional**: Não (ordenação realizada no próprio array).
+   - **Recursividade**: Não é recursivo (embora possa ser implementado recursivamente, geralmente não é).
+
+### 2. **Selection Sort (Ordenação por Seleção)**
+   - **Estabilidade**: Instável (a troca de elementos pode alterar a ordem de elementos iguais).
+   - **Memória Adicional**: Não (opera no próprio array).
+   - **Recursividade**: Não é recursivo (implementação padrão é iterativa).
+
+### 3. **Insertion Sort (Ordenação por Inserção)**
+   - **Estabilidade**: Estável (preserva a ordem de elementos iguais).
+   - **Memória Adicional**: Não (realiza a ordenação no próprio array).
+   - **Recursividade**: Não é recursivo (embora uma versão recursiva seja possível).
+
+### 4. **Merge Sort (Ordenação por Intercalação)**
+   - **Estabilidade**: Estável (mantém a ordem de elementos iguais).
+   - **Memória Adicional**: Sim (utiliza um vetor auxiliar para intercalar os elementos).
+   - **Recursividade**: Recursivo (divisão e combinação recursivas dos subarrays).
+
+### 5. **Quick Sort**
+   - **Estabilidade**: Instável (movimentos de elementos podem alterar a ordem de elementos iguais).
+   - **Memória Adicional**: Não (ordenação in-place, embora uma pilha de chamada seja usada para recursão).
+   - **Recursividade**: Recursivo (divide o array recursivamente em partes menores).
+
+### 6. **Heap Sort (Ordenação por Heap)**
+   - **Estabilidade**: Instável (as trocas não preservam a ordem de elementos iguais).
+   - **Memória Adicional**: Não (usa o próprio array para organizar o heap).
+   - **Recursividade**: Não é recursivo (usualmente implementado de forma iterativa).
+
+### 7. **Radix Sort (Ordenação por Radix)**
+   - **Estabilidade**: Estável (preserva a ordem de elementos iguais).
+   - **Memória Adicional**: Sim (necessita de um vetor adicional para o agrupamento dos dígitos).
+   - **Recursividade**: Não é recursivo (usualmente implementado de forma iterativa).
+
+### 8. **Shell Sort**
+   - **Estabilidade**: Instável (a movimentação dos elementos não preserva a ordem de elementos iguais).
+   - **Memória Adicional**: Não (ordenação realizada no próprio array).
+   - **Recursividade**: Não é recursivo (algoritmo iterativo com intervalos decrescentes).
+
+### Resumo
+
+- **Estáveis**: Bubble Sort, Insertion Sort, Merge Sort, Radix Sort.
+- **Instáveis**: Selection Sort, Quick Sort, Heap Sort, Shell Sort.
+- **Memória Adicional Necessária**: Merge Sort, Radix Sort.
+- **In-place (sem memória adicional)**: Bubble Sort, Selection Sort, Insertion Sort, Quick Sort, Heap Sort, Shell Sort.
+- **Recursivos**: Merge Sort, Quick Sort.
+- **Não Recursivos**: Bubble Sort, Selection Sort, Insertion Sort, Heap Sort, Radix Sort, Shell Sort.

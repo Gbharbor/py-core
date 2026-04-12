@@ -22,7 +22,7 @@ Thumbs.db
 
 # Temporários / logs
 *.log
-dados.txt
+#dados.txt
 
 # Variáveis sensíveis
 .env
