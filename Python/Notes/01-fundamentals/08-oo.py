@@ -6,7 +6,8 @@ print("=== SEM CLASSES ===")
 
 
 def apresentar(nome, idade):
-   print(f"Ola, eu sou {nome} e tenho {idade} anos.")
+    print(f"Ola, eu sou {nome} e tenho {idade} anos.")
+
 
 apresentar("Carlos", 18)
 
@@ -16,12 +17,12 @@ print("\n=== CLASSE ===")
 
 class Product:
 
-   def __init__(self, name, price):
-      self.name = name
-      self.price = price
+    def __init__(self, name, price):
+        self.name = name
+        self.price = price
 
-   def resumir(self):
-      print(f"{self.name} custa {self.price}")
+    def resumir(self):
+        print(f"{self.name} custa {self.price}")
 
 
 print("\n=== INSTANCIAS ===")

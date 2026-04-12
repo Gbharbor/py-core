@@ -30,11 +30,7 @@ print("Primeiro elemento:", tupla[0])
 
 print("\n=== DICIONARIOS ===")
 
-pessoa = {
-    "nome": "gui",
-    "idade": 90,
-    "pais": "Brasil"
-}
+pessoa = {"nome": "gui", "idade": 90, "pais": "Brasil"}
 
 print(pessoa)
 

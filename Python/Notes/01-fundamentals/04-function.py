@@ -4,7 +4,7 @@ Funcoes em Python
 
 
 def somar(x, y):
-   return x + y
+    return x + y
 
 
 print("=== USANDO VALORES FIXOS ===")
