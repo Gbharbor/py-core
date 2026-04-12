@@ -1,50 +1,35 @@
-# =====================================
-# PYTHON (compilados / cache)
-# =====================================
+# Python cache / compilados
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
 
-# =====================================
-# AMBIENTE VIRTUAL
-# =====================================
+# Ambiente virtual
 venv/
-.env/
 .venv/
+.env/
 
-# =====================================
-# CONFIGURAÇÕES DO SISTEMA
-# =====================================
+# Pytest cache
+.pytest_cache/
+
+# Sistema
 .DS_Store
 Thumbs.db
 
-# =====================================
-# EDITORES / IDEs
-# =====================================
+# Editores
 .vscode/
 .idea/
 
-# =====================================
-# ARQUIVOS DE TESTE / TEMPORÁRIOS
-# =====================================
+# Temporários / logs
+*.log
 dados.txt
 
-# =====================================
-# LOGS
-# =====================================
-*.log
-
-# =====================================
-# ARQUIVOS SENSÍVEIS
-# =====================================
+# Variáveis sensíveis
 .env
 .env.local
 .env.*.local
 
-# =====================================
-# BUILD / DIST (caso evolua o projeto)
-# =====================================
+# Build
 dist/
 build/
 docs/
