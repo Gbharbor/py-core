@@ -2,33 +2,32 @@
 Introducao a Classes em Python
 """
 
-print("=== SEM CLASSES ===")
+print("no classes")
 
 
-def apresentar(nome, idade):
-    print(f"Ola, eu sou {nome} e tenho {idade} anos.")
+def greetings(name, age):
+    print(f"hi i am {name} and i have {age} anos.")
 
 
-apresentar("Carlos", 18)
+greetings("Gui", 95)
 
 
-print("\n=== CLASSE ===")
+print("\n classes")
 
 
-class Product:
+class Address:
+    def __init__(self, mail, city):
+        self.mail = mail
+        self.city = city
 
-    def __init__(self, name, price):
-        self.name = name
-        self.price = price
-
-    def resumir(self):
-        print(f"{self.name} custa {self.price}")
+    def summary(self):
+        print(f"Postal mail: {self.mail}, city: {self.city} ")
 
 
-print("\n=== INSTANCIAS ===")
+print("\n=== Instance ===")
+p1 = Address(2500 - 123, "Lisbon")
+p2 = Address(2500 - 321, "Porto")
+p1.summary()
 
-p1 = Product("CD", 20)
-p2 = Product("DVD", 40)
 
-p1.resumir()
-p2.resumir()
+p2.summary()
