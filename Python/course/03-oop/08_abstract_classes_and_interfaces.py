@@ -1,23 +1,29 @@
-#crio uma interface que qualquer pagamento tenha o metodo pagar ABC = abstrct base class
+# crio uma interface que qualquer pagamento tenha o metodo pagar ABC = abstrct base class
 from abc import ABC, abstractmethod
-#aqui esta o "molde"
+
+
+# aqui esta o "molde"
 class Pagamento:
     @abstractmethod
     def pagar(self, valor):
         pass
 
+
 class PagamentoPromessa(Pagamento):
     def pagar(self, valor):
         print(f"Pagando na promessa R${valor}")
+
 
 class PagamentoCartao(Pagamento):
     def pagar(self, valor):
         print(f"Pagando no cartão R${valor}")
 
+
 class PagamentoPix(Pagamento):
     def pagar(self, valor):
         print(f"Pagando no PIX R${valor}")
-        
+
+
 class PagamentoBoleto(Pagamento):
     def pagar(self, valor):
         print(f"Pagando no boleto R${valor}")

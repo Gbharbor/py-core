@@ -2,16 +2,20 @@ class Pagamento:
     def pagar(self, valor):
         print(f"Pagando R${valor}")
 
+
 class PagamentoPromessa(Pagamento):
     pass
+
 
 class PagamentoCartao(Pagamento):
     def pagar(self, valor):
         print(f"Pagando no cartão R${valor}")
 
+
 class PagamentoPix(Pagamento):
     def pagar(self, valor):
         print(f"Pagando no PIX R${valor}")
+
 
 # Polimorfismo:
 # A função recebe qualquer objeto que seja um Pagamento

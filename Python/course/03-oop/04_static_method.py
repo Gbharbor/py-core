@@ -13,8 +13,6 @@ class TextFormatter:
         return value.upper()
 
 
-product_name = TextFormatter.uppercase(
-    input("What is the product name? ")
-)
+product_name = TextFormatter.uppercase(input("What is the product name? "))
 
 print(product_name)
